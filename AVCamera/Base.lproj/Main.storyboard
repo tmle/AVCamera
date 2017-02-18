@@ -25,12 +25,15 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xtm-qV-t2U">
-                                <rect key="frame" x="163" y="65" width="48" height="48"/>
+                                <rect key="frame" x="163" y="120" width="48" height="48"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="Jgb-7f-Qt5"/>
                                     <constraint firstAttribute="width" constant="48" id="Rgh-dC-IVm"/>
                                 </constraints>
                                 <state key="normal" image="Camera-Front-48x48.png"/>
+                                <connections>
+                                    <action selector="snapStillImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pyt-Zf-F3V"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -40,13 +43,13 @@
                             <constraint firstAttribute="trailing" secondItem="KDs-eV-mxn" secondAttribute="trailing" id="Oeu-k8-yYd"/>
                             <constraint firstItem="KDs-eV-mxn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="b8N-lp-z6L"/>
                             <constraint firstItem="KDs-eV-mxn" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="cbk-IU-ukX"/>
-                            <constraint firstItem="Xtm-qV-t2U" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="45" id="yV5-fF-4S3"/>
+                            <constraint firstItem="Xtm-qV-t2U" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="yV5-fF-4S3"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+            <point key="canvasLocation" x="452" y="125"/>
         </scene>
     </scenes>
     <resources>
